@@ -1,4 +1,4 @@
-![Web Developers](https://avatars.githubusercontent.com/u/53827851?v=4)
+
 
 ### Hi there 👋, I am Tanzim
 #### Web Developers
