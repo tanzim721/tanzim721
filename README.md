@@ -11,10 +11,10 @@ Skills: C / C++ / HTML / CSS / JS / PHP / Laravel
 - 👯 I’m looking to collaborate on github 
 - 💬 Ask me about Web Development 
 
-✔Prefered to be called by the name tanzim
-✔Started as full time developer since 2020.
-✔Writing codes in difference languages since 2018.
-✔I have been writing PHP since 2021 and Laravel since 2021.
+<p>✔Prefered to be called by the name tanzim.</p>
+<p>✔Started as full time developer since 2020.</p>
+<p>✔Writing codes in difference languages since 2018.</p>
+<p>✔I have been writing PHP since 2021 and Laravel since 2021.</p>
 
 <h3>🤷‍♀️Things I do & like</h3>
 I love to problem solving and web development.
