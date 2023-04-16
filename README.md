@@ -1,19 +1,24 @@
 
 
-### Hi there 👋, I am Tanzim
+### Hi there 👋, I am Tanzimul Islam
 #### Web Developers
 
-
-I made this project just for fun, it allows you to create nice and simple GitHub Readme files that you can copy/paste and use in your profile.
 
 Skills: C / C++ / HTML / CSS / JS / PHP / Laravel
 
 - 🔭 I’m currently working on Teachers Management System Project 
 - 🌱 I’m currently learning Laravel 
 - 👯 I’m looking to collaborate on github 
-- 🤔 I’m looking for help with remote job  
 - 💬 Ask me about Web Development 
 
+✔Prefered to be called by the name tanzim
+
+Started as full time developer since 2020.
+Writing codes in difference languages since 2018.
+I have been writing PHP since 2021 and Laravel since 2021.
+
+<h3>Things I do & like</h3>
+I love to problem solving and web development.
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/tanzim721)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/tanzimul-islam-73083b190/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/tanzimul.islam.7737)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/tanzimul36/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/tanzimulislam7251)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://www.blogger.com/profile/01049206649539931099)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codeforces.svg' alt='codeforces' height='40'>](https://codeforces.com/profile/Black_idea)  
 
