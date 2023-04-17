@@ -1,10 +1,11 @@
 
 
-### Hi there 👋, I am Tanzimul Islam
+### Hi there 👋, 
+I am Tanzimul Islam
 #### Web Developers
 
 
-Skills: C / C++ / HTML / CSS / Bootstrap / JS / PHP / Laravel
+<h3>Skills: C / C++ / HTML / CSS / Bootstrap / JS / PHP / Laravel </h3>
 
 - 🔭 I’m currently working on Teachers Management System Project 
 - 🌱 I’m currently learning Laravel 
@@ -14,7 +15,7 @@ Skills: C / C++ / HTML / CSS / Bootstrap / JS / PHP / Laravel
 <p>✔Prefered to be called by the name tanzim</p>
 <p>✔I have been problem solving started since 2018. C in my first programming language then c++.</p>
 <p>✔Started as full time developer since 2021.</p>
-<p>✔I have been writing PHP since 2021 and Laravel since 2021.</p>
+<p>✔I have been writing PHP since 2021 and Laravel since 2022</p>
 
 <h2>🤷‍♀️Things I do & like</h2>
 I love to problem solving and web development.
