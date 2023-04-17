@@ -4,19 +4,19 @@
 #### Web Developers
 
 
-Skills: C / C++ / HTML / CSS / JS / PHP / Laravel
+Skills: C / C++ / HTML / CSS / Bootstrap / JS / PHP / Laravel
 
 - 🔭 I’m currently working on Teachers Management System Project 
 - 🌱 I’m currently learning Laravel 
 - 👯 I’m looking to collaborate on github 
 - 💬 Ask me about Web Development 
 
-<p>✔Prefered to be called by the name tanzim.</p>
-<p>✔Started as full time developer since 2020.</p>
-<p>✔Writing codes in difference languages since 2018.</p>
+<p>✔Prefered to be called by the name tanzim</p>
+<p>✔I have been problem solving started since 2018. C in my first programming language then c++.</p>
+<p>✔Started as full time developer since 2021.</p>
 <p>✔I have been writing PHP since 2021 and Laravel since 2021.</p>
 
-<h3>🤷‍♀️Things I do & like</h3>
+<h2>🤷‍♀️Things I do & like</h2>
 I love to problem solving and web development.
 
 
