@@ -5,7 +5,7 @@ I am Tanzimul Islam
 #### Web Developers
 
 
-<h3>Skills: C / C++ / HTML / CSS / Bootstrap / JS / PHP / Laravel </h3>
+<h3>Skills: C / C++ / HTML / CSS / Bootstrap / JS / jQuery / PHP / Laravel </h3>
 
 - 🔭 I’m currently working on Teachers Management System Project 
 - 🌱 I’m currently learning Laravel 
