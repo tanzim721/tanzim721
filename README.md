@@ -2,7 +2,7 @@
 
 ### Hi there 👋
 I am Tanzimul Islam
-#### Web Developers
+#### A passionate laravel developer from Bangladesh.
 
 
 <h3>Skills: C / C++ / HTML / CSS / Bootstrap / JS / jQuery / PHP / Laravel </h3>
