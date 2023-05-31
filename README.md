@@ -13,9 +13,6 @@ I am Tanzimul Islam
 - 💬 Ask me about Web Development.
 
 <p>✔Prefered to be called by the name tanzim</p>
-<p>✔I have been problem solving started since 2018. C in my first programming language then others.</p>
-<p>✔Started as full time developer since 2021.</p>
-<p>✔I have been writing PHP since 2021 and Laravel since 2022.</p>
 
 <h2>🤷‍♀️Things I do & like</h2>
 I love to problem solving and web development.
