@@ -12,7 +12,7 @@ I am Tanzimul Islam
 - 👯 I’m looking to collaborate on github.
 - 💬 Ask me about Web Development.
 
-<p>✔Prefered to be called by the name tanzim</p>
+<p>✔Prefered to be called by the name Tanzim</p>
 
 <h2>🤷‍♀️Things I do & like</h2>
 I love to problem solving and web development.
