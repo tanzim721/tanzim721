@@ -7,7 +7,7 @@ I am Tanzimul Islam
 
 <h3>Skills: C / C++ / HTML / CSS / Bootstrap / JS / jQuery / PHP / Laravel </h3>
 
-- 🔭 I’m currently working on Teachers Management System Project 
+- 🔭 I’m currently working on S&J BD LTD Project 
 - 🌱 I’m currently learning ReactJS.
 - 👯 I’m looking to collaborate on github.
 - 💬 Ask me about Web Development.
