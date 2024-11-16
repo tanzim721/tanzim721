@@ -7,7 +7,7 @@ I am Tanzimul Islam
 
 <h3>Skills: C / C++ / HTML / CSS / Bootstrap / JS / jQuery / PHP / Laravel / Livewire / VueJS / NodeJS</h3>
 
-- 🔭 I’m currently working on ecommerce project. 
+- 🔭 I’m currently working on ChatBot_Job project. 
 - 🌱 I’m currently learning VueJS.
 - 👯 I’m looking to collaborate on github.
 - 💬 Ask me about Web Development.
