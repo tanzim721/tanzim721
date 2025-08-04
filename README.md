@@ -5,9 +5,9 @@ I am Tanzimul Islam
 #### A passionate laravel developer from Bangladesh.
 
 
-<h3>Skills: C / C++ / HTML / CSS / Bootstrap / JS / jQuery / PHP / Laravel / Livewire / NodeJS / MySQL / MsSQL </h3>
+<h3>Skills: C / C++ / HTML / CSS / Bootstrap / JS / jQuery / PHP / Laravel / Livewire / vueJS / NodeJS / MySQL / MsSQL </h3>
 
-- 🔭 I’m currently working on ChatBot_Job and 5dTechnogy.com project. 
+- 🔭 I’m currently working on jobbar_laravel_vue and toucan.adplaytechnology.com project. 
 - 🌱 I’m currently learning VueJS.
 - 👯 I’m looking to collaborate on github.
 - 💬 Ask me about Web Development.
