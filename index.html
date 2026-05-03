@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanzimul Islam — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo">TI<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <canvas id="particles"></canvas>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="badge">Available for opportunities</div>
+        <h1 class="hero-title">
+          <span class="line">Tanzimul</span>
+          <span class="line accent">Islam</span>
+        </h1>
+        <p class="hero-sub" id="typeTarget"></p>
+        <p class="hero-desc">Passionate Software Engineer specializing in Web Development and AI-driven Solutions. Building scalable, user-centric applications at the intersection of modern tech and intelligence.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-card-wrap">
+        <div class="hero-card">
+          <div class="card-glow"></div>
+          <img src="tanzim.jpg" alt="Tanzimul Islam" class="profile-img" />
+          <div class="card-info">
+            <strong>Software Engineer</strong>
+            <span>AdPlay Technology LTD</span>
+            <span class="location">📍 Dhaka, Bangladesh</span>
+          </div>
+          <div class="card-badges">
+            <span>Laravel</span>
+            <span>React.js</span>
+            <span>AI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="about reveal">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-bio">
+          <p>I'm a motivated Software Engineer with a B.Sc. in Information and Communication Engineering from Pabna University of Science and Technology. Currently working at <strong>AdPlay Technology LTD</strong> on enterprise-grade Laravel applications integrating AI-powered tools.</p>
+          <p>I'm passionate about leveraging cutting-edge technologies — from real-time bidding systems to AI SaaS platforms — to solve complex, real-world problems. I've also mentored students in full-stack web development as a trainer at the BYETS Project.</p>
+          <div class="about-links">
+            <a href="https://github.com/tanzim721" target="_blank" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/tanzimul-islam-73083b190/" target="_blank" class="social-link">LinkedIn</a>
+            <a href="https://tanzim36.me" target="_blank" class="social-link">Website</a>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-num" data-target="2">0</span><span class="stat-plus">+</span>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="10">0</span><span class="stat-plus">+</span>
+            <p>Projects Built</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="3">0</span>
+            <p>Companies</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="70">0</span><span class="stat-plus">+</span>
+            <p>Contests Entered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="skills reveal">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+
+        <div class="skill-block">
+          <div class="skill-icon">⌨️</div>
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>PHP (OOP)</span><span>JavaScript</span><span>Python</span>
+            <span>C</span><span>C++</span><span>SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">🧩</div>
+          <h3>Frameworks</h3>
+          <div class="tags">
+            <span>Laravel</span><span>Livewire</span><span>React.js</span>
+            <span>Node.js</span><span>Express.js</span><span>Socket.io</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">🗄️</div>
+          <h3>Databases</h3>
+          <div class="tags">
+            <span>MySQL</span><span>MSSQL</span><span>MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">🎨</div>
+          <h3>Frontend</h3>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>Bootstrap</span>
+            <span>jQuery</span><span>AJAX</span><span>JSON</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">🤖</div>
+          <h3>AI & APIs</h3>
+          <div class="tags">
+            <span>Gemini</span><span>GPT</span><span>DeepSeek-VL</span>
+            <span>Microsoft Graph API</span><span>RESTful APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools & DevOps</h3>
+          <div class="tags">
+            <span>Git</span><span>GitHub</span><span>GitLab</span>
+            <span>Docker</span><span>Postman</span><span>MVC</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience" class="experience reveal">
+    <div class="container">
+      <div class="section-label">03 — Experience</div>
+      <h2 class="section-title">Work History</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Sep 2024 — Present</div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <h3>Software Engineer</h3>
+                <p class="company">AdPlay Technology LTD · Dhaka, Bangladesh</p>
+              </div>
+              <span class="tl-badge active">Current</span>
+            </div>
+            <ul>
+              <li>Developed enterprise-grade Laravel applications integrating AI-powered tools, enhancing system efficiency</li>
+              <li>Designed and implemented a Real-Time Bidding (RTB) system with Node.js and MongoDB</li>
+              <li>Integrated Microsoft Graph API for automated daily email reporting workflows</li>
+              <li>Built AI-powered messaging systems (auto-reply and campaign SMS platforms)</li>
+              <li>Designed and developed a scalable Creative AI SaaS platform with subscription plans, user roles, and 30+ AI-generated creative asset types</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Apr 2024 — Jul 2024</div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <h3>Software Developer</h3>
+                <p class="company">SATT Academy IT · Rajshahi, Bangladesh</p>
+              </div>
+            </div>
+            <ul>
+              <li>Built and maintained dynamic web platforms using Laravel and MySQL</li>
+              <li>Collaborated in a team to design and deploy several educational web systems</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Aug 2023 — Mar 2024</div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <h3>Web Development Trainer</h3>
+                <p class="company">BYETS Project · Rajshahi, Bangladesh</p>
+              </div>
+            </div>
+            <ul>
+              <li>Conducted training on full-stack web development (PHP, Laravel, JavaScript)</li>
+              <li>Mentored students on real-life projects and development best practices</li>
+              <li>Designed hands-on tasks and evaluated project-based learning outcomes</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" class="projects reveal">
+    <div class="container">
+      <div class="section-label">04 — Projects</div>
+      <h2 class="section-title">Featured Work</h2>
+      <div class="projects-grid">
+
+        <div class="proj-card">
+          <div class="proj-top">
+            <div class="proj-num">01</div>
+            <div class="proj-links">
+              <a href="https://quizmaster.club" target="_blank" class="proj-link">↗</a>
+            </div>
+          </div>
+          <h3>Quizmaster.club</h3>
+          <p>Interactive quiz platform supporting live quiz sessions, leaderboards, winnerboard, loyalty systems, and campaign image quizzes. Integrated third-party REST APIs for real-time score updates.</p>
+          <div class="proj-tech">
+            <span>React.js</span><span>REST APIs</span><span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-top">
+            <div class="proj-num">02</div>
+            <div class="proj-links">
+              <a href="https://gamestar.team" target="_blank" class="proj-link">↗</a>
+            </div>
+          </div>
+          <h3>Gamestar.team</h3>
+          <p>Fully responsive gaming platform with dynamic product browsing, real-time API integrations, secure user authentication, and an optimised checkout flow with caching and error-handling.</p>
+          <div class="proj-tech">
+            <span>React.js</span><span>REST APIs</span><span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-top">
+            <div class="proj-num">03</div>
+          </div>
+          <h3>Creative AI Platform</h3>
+          <p>Laravel SaaS platform for AI-generated text and images. Features 30+ creative generation tools, admin panel, subscription plans, role-based access, and Microsoft Graph API email verification.</p>
+          <div class="proj-tech">
+            <span>Laravel 11</span><span>AI APIs</span><span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-top">
+            <div class="proj-num">04</div>
+          </div>
+          <h3>AdPlay DSP Panel</h3>
+          <p>Real-time data synchronization dashboard using Laravel and stored procedures. Automates daily email reports via Microsoft Graph API. Supports multiple ad types and reporting filters.</p>
+          <div class="proj-tech">
+            <span>Laravel</span><span>Microsoft Graph API</span><span>Stored Procedures</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-top">
+            <div class="proj-num">05</div>
+            <div class="proj-links">
+              <a href="https://chargee.shop" target="_blank" class="proj-link">↗</a>
+            </div>
+          </div>
+          <h3>Chargee.shop</h3>
+          <p>Full game platform with product browsing, cart, and secure checkout. Implements email verification, OTP login, dynamic product search with page-wise filtering and responsive design.</p>
+          <div class="proj-tech">
+            <span>React.js</span><span>MySQL</span><span>REST APIs</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-top">
+            <div class="proj-num">06</div>
+          </div>
+          <h3>Real-Time Bidding System</h3>
+          <p>Full-stack ad bidding solution simulating a live advertising ecosystem. Handles real-time bid requests and responses with high performance, Node.js speed, and MongoDB scalability.</p>
+          <div class="proj-tech">
+            <span>Node.js</span><span>MongoDB</span><span>Laravel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education" class="education reveal">
+    <div class="container">
+      <div class="section-label">05 — Education</div>
+      <h2 class="section-title">Academic Background</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-info">
+            <h3>B.Sc. in Information and Communication Engineering</h3>
+            <p class="edu-inst">Pabna University of Science and Technology</p>
+            <p class="edu-loc">Pabna - 6600, Bangladesh</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">🏆</div>
+          <div class="edu-info">
+            <h3>Competitive Programming</h3>
+            <p class="edu-inst">National Collegiate Programming Contest · SUST Techfest 2019</p>
+            <p class="edu-loc">70+ online programming contests participated</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="contact reveal">
+    <div class="container">
+      <div class="section-label">06 — Contact</div>
+      <h2 class="section-title">Let's Talk</h2>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-desc">I'm open to full-time roles, freelance projects, and collaborations. Drop me a message and I'll get back to you soon.</p>
+          <div class="contact-items">
+            <a href="mailto:tanzimulislam799@gmail.com" class="contact-item">
+              <div class="ci-icon">📧</div>
+              <div>
+                <strong>Email</strong>
+                <span>tanzimulislam799@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+8801314965934" class="contact-item">
+              <div class="ci-icon">📱</div>
+              <div>
+                <strong>Phone</strong>
+                <span>+880 131 496 5934</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/tanzimul-islam-73083b190/" target="_blank" class="contact-item">
+              <div class="ci-icon">💼</div>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>Tanzimul Islam</span>
+              </div>
+            </a>
+            <a href="https://github.com/tanzim721" target="_blank" class="contact-item">
+              <div class="ci-icon">⚡</div>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/tanzim721</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="ci-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <span>Mohakhali, Dhaka, Bangladesh</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" name="subject" placeholder="What's this about?" required />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message ↗</button>
+            <div id="form-msg"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">TI<span>.</span></div>
+        <p>© 2025 Tanzimul Islam · Built with passion ❤️ and lots of ☕</p>
+        <div class="footer-links">
+          <a href="https://github.com/tanzim721" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/tanzimul-islam-73083b190/" target="_blank">LinkedIn</a>
+          <a href="https://tanzim36.me" target="_blank">Website</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>
