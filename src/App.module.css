@@ -1,0 +1,83 @@
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.main {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  flex: 1;
+  overflow: hidden;
+}
+.cityWrap {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #bfdbfe 0%, #f0f9ff 60%, #e2e8f0 100%);
+}
+
+/* ── Legend overlay bottom-left ── */
+.legend3d {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 30;
+}
+.legendBtn {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.88);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0,0,0,0.10);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: #374151;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+.legendBtn:hover {
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+  transform: translateX(2px);
+}
+.legendBtnActive {
+  background: white;
+  font-weight: 600;
+}
+.legendDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── Tip ── */
+.tip {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255,255,255,0.82);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 11px;
+  color: #6b7280;
+  z-index: 30;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,.07);
+}
+
+@media (max-width: 860px) {
+  .main { grid-template-columns: 1fr; }
+  .cityWrap { height: 55vh; }
+}

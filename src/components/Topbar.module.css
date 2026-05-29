@@ -1,0 +1,33 @@
+.bar {
+  height: 58px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  flex-shrink: 0;
+  z-index: 200;
+}
+.left { display: flex; flex-direction: column; line-height: 1; gap: 3px; }
+.name { font-weight: 600; font-size: 1rem; letter-spacing: -0.02em; }
+.dot  { color: #e11d48; }
+.sub  { font-size: 0.68rem; letter-spacing: 0.12em; color: var(--muted); }
+.right { display: flex; align-items: center; gap: 8px; }
+.icon {
+  width: 36px; height: 36px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 8px; border: 1px solid var(--border);
+  color: var(--muted); text-decoration: none;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.icon:hover { background: var(--text); color: white; border-color: var(--text); }
+.resume {
+  display: flex; align-items: center; gap: 6px;
+  padding: 0 16px; height: 36px; border-radius: 8px;
+  background: var(--text); color: white;
+  font-size: 0.85rem; font-weight: 500;
+  text-decoration: none; letter-spacing: 0.02em;
+  transition: opacity .2s;
+}
+.resume:hover { opacity: 0.82; }
